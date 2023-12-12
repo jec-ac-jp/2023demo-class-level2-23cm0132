@@ -23,7 +23,7 @@ public class Step2Controller {
     return "step2/greeting";
   }
 
-  // 課題 level1 step2
+  // 課題 level1 step2。
   @GetMapping("/evening")
   public String evening(@RequestParam(name = "名前", required = false) String name, Model model) {
     // 「/step2/evening?name=○○」をURLの最後に指定した時に「○○さん、こんばんは!」と返すよう処理を追加してください。
